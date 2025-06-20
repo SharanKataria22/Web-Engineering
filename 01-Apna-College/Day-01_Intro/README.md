@@ -1,1 +1,1 @@
-# Day - 01 Introduction.
+# Day - 01 Introduction
