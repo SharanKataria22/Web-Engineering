@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Starts a form.
+    action tells where to send the form data — here it's Google’s search engine. -->
+    <form action="https://www.google.com/search">
+        <!-- A text input field where the user types a search query.
+        name="q" is important — Google uses q as the keyword parameter.
+        placeholder is the hint text shown inside the input box. -->
+        <input type="text" name="q" placeholder="Seach in Google" >
+        <!-- A submit button that sends the input when clicked. -->
+        <button type="submit">Search</button>
+        <!-- 🌐 What Happens When You Click “Search”?
+        User types something like HTML tutorial.
+        When they click the Search button:
+        The browser redirects to:
+        https://www.google.com/search?q=HTML+tutorial
+        Google displays search results for that query. -->
+    </form>
+</body>
+</html>
