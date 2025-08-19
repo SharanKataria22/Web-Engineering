@@ -1,1 +1,1 @@
-# Day - 12 CSS Part 07
+# Day - 12 Mini-Project CSS
